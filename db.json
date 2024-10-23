@@ -1,0 +1,87 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "MacBoo",
+      "price": 900,
+      "year": 2020,
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Hello",
+      "price": 1000,
+      "year": 2019,
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "SSD": "",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": "4d58",
+      "title": "32332",
+      "price": "",
+      "year": "",
+      "image": "assets/images/macbook.jpeg",
+      "details": {
+        "chip": "",
+        "SSD": "",
+        "memory": "",
+        "display": ""
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": "1",
+      "title": "MacBoo",
+      "price": 900,
+      "year": 2020,
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      },
+      "quantity": 3
+    },
+    {
+      "id": "2",
+      "title": "Hello",
+      "price": 1000,
+      "year": 2019,
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "SSD": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 3
+    },
+    {
+      "id": "4d58",
+      "title": "32332",
+      "price": "",
+      "year": "",
+      "image": "assets/images/macbook.jpeg",
+      "details": {
+        "chip": "",
+        "SSD": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 3
+    }
+  ]
+}

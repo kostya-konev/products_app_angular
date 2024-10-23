@@ -1,0 +1,18 @@
+<div class="container">
+  <mat-card class="example-card">
+    <mat-card-title>{{ product.title }}</mat-card-title>
+    <img class="image" mat-card-image src="{{ product.image }}"/>
+    <mat-card-content>
+      <p>Price: {{ product.price | currency:"EUR" }}</p>
+      <p>Year: {{ product.year }}</p>
+      <p>Chip: {{ product.details.chip }}</p>
+      <p>SSD: {{ product.details.SSD }}</p>
+      <p>Memory: {{ product.details.memory }}</p>
+      <p>Display: {{ product.details.display }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-flat-button>Add to Basket</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
